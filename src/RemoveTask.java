@@ -6,6 +6,6 @@ public class RemoveTask implements Command{
     }
     @Override
     public void execute() {
-        System.out.println("Task: " + task.getName() + " was removed." );
+        System.out.println("Task: " + task.name() + " was removed." );
     }
 }

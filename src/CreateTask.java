@@ -7,6 +7,6 @@ public class CreateTask implements Command{
 
     @Override
     public void execute() {
-        System.out.println("Task: " + task.getName() + " was created");
+        System.out.println("Task: " + task.name() + " was created");
     }
 }

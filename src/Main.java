@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Tasks on today: ");
         while (taskIterator.hasNext()) {
             Task task = taskIterator.next();
-            System.out.println("Task: " + task.getName()+ " has a priority of " + task.getPriority());
+            System.out.println("Task: " + task.name()+ " has a priority of " + task.priority());
         }
     }
 }
